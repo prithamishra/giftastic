@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+
+
+  <title>GifTastic</title>
+</head>
+
+<body>
+  <div class="jumbotron text-center">
+    <h1>Giffy World Of Dessert</h1>
+    <h4>Welcome to the land of Dessert! You can search for your favourite dessert gifs here!</h4>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center" id="search-section">
+        <form id=search-dessert>
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="giphy-input" placeholder="Search for sweet soufflé on any dessert you like!">
+          </div>
+          <button type="submit" class="btn center-block" id="add-btn">Search for Dessert gifs</button>
+        </form>
+
+        <div class="row" id="buttons-area">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <h4 id="my-fav-dessert">Favourite desserts</h4>
+          </div>
+          <div class="row" id="generate-buttons">
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12" id="result-section">
+        <div class="row">
+          <h3 id="gif-results" class="center-block"></h3>
+        </div>
+        <div class="row" id="generate-gifs">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>

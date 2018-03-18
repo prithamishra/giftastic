@@ -1,0 +1,147 @@
+.jumbotron {
+  margin: 0px !important;
+  min-width: 100vw;
+  background-image: url("../images/jumbotron.jpeg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  min-height: 50%;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  margin: 0px !important;
+  min-width: 100vw;
+  background-image: url("../images/container.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search-section {
+  color: #FBF9FB;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#giphy-input {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+#buttons-area {
+  height: 65vh;
+  overflow-y: scroll;
+  padding-bottom: 5px;
+}
+
+#add-btn {
+  background-color: rgb(118, 158, 160);
+  color: #EDEBED;
+  width: 100%;
+}
+
+#add-btn:hover {
+  background-color: powderblue;
+  color: #8BB1B3;
+}
+
+.float-right {
+  float: right;
+}
+
+#my-fav-dessert {
+  text-align: center;
+  border: 1px double #CECCCE;
+  border-radius: 5px;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  background-color: rgb(145, 148, 148);
+  font-family: cursive;
+  font-size: 20px;
+}
+
+#generate-buttons {
+  margin: 0px;
+}
+
+.myNewDesserts {
+  font-size: 15px !important;
+  border: 1px solid #CECCCE !important;
+  margin-bottom: 1vh !important;
+}
+
+#result-section {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.newDesserts {
+  width: 100%;
+  height: 19vh;
+}
+
+#gif-results {
+  width: 35vw;
+  text-align: center;
+  border: 1px solid #595859;
+  border-radius: 5px;
+  padding: 2vh;
+  margin-bottom: 3vh;
+}
+
+.panel-body {
+  padding: 0px !important;
+  background-color: rgb(118, 158, 160);
+}
+
+.panel-footer {
+  text-align: center;
+}
+
+div.panel-footer {
+  background-color: rgb(118, 158, 160);
+}
+
+button.btn.myNewDesserts {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(190, 190, 190);
+}
+
+button.btn {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+#gif-results {
+  height: 50px;
+  width: 100%;
+}
+
+input#giphy-input.form-control {
+  font-family: cursive;
+}
+
+#gif-results {
+  background-color: rgb(118, 158, 160);
+  font-family: cursive;
+}
+
+.jumbotron h4 {
+  font-family: cursive;
+  color: black;
+}
+
+.jumbotron h1 {
+  font-weight: bolder;
+  font-family: 'Aladin', cursive;
+  color: white;
+}
